@@ -1,0 +1,24 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  batch:
+    initialize-schema: always
+    job:
+      enabled: false
+    
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/ec-2018c
+    username: postgres
+    password: postgres
+    
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: yk001214@gmail.com
+    password: awwhyqkwvxwkwuoj
+    properties.mail.smtp.auth: true
+    properties.mail.smtp.starttls.enable: true
+  
